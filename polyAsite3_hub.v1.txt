@@ -26,7 +26,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/Track_h
 track PAS_plus_strand
 shortLabel PAS (+) strand
 longLabel PolyA sites on (+) strand
-parent myMultiWig
+parent PAS_total
 color 4,177,216
 type bigWig 0 22000
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/total/PAS.total.plus.bw
@@ -35,7 +35,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/Track_h
 track PAS_minus_strand
 shortLabel PAS (-) strand
 longLabel PolyA sites on (-) strand
-parent myMultiWig
+parent PAS_total
 color 255,68,51
 type bigWig 0 22000
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/total/PAS.total.minus.bw
