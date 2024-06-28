@@ -41,7 +41,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/t
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_clusters.html
 
 track PAS_tissue_TPM_plus
-visibility full
+visibility dense
 shortLabel PAS tissue TPM (+) strand
 longLabel PAS tissue TPM (+) strand
 container multiWig
@@ -54,7 +54,7 @@ maxHeighPixels 120:60:8
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_nose_TPM_plus_strand
-shortLabel PAS nose TPM (+) strand
+shortLabel nose
 longLabel PAS nose TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -63,7 +63,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_trachea_TPM_plus_strand
-shortLabel PAS trachea TPM (+) strand
+shortLabel trachea
 longLabel PAS trachea TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -72,7 +72,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_heart_TPM_plus_strand
-shortLabel PAS heart TPM (+) strand
+shortLabel heart
 longLabel PAS heart TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -81,7 +81,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_intestine_TPM_plus_strand
-shortLabel PAS intestine TPM (+) strand
+shortLabel intestine
 longLabel PAS intestine TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -90,7 +90,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_breast_TPM_plus_strand
-shortLabel PAS breast TPM (+) strand
+shortLabel breast
 longLabel PAS breast TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -99,7 +99,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_bone_TPM_plus_strand
-shortLabel PAS bone TPM (+) strand
+shortLabel bone
 longLabel PAS bone TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -108,7 +108,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_pancreas_TPM_plus_strand
-shortLabel PAS pancreas TPM (+) strand
+shortLabel pancreas
 longLabel PAS pancreas TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -117,7 +117,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_eye_TPM_plus_strand
-shortLabel PAS eye TPM (+) strand
+shortLabel eye
 longLabel PAS eye TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -126,7 +126,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_kidney_TPM_plus_strand
-shortLabel PAS kidney TPM (+) strand
+shortLabel kidney
 longLabel PAS kidney TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -135,7 +135,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_penis_TPM_plus_strand
-shortLabel PAS penis TPM (+) strand
+shortLabel penis
 longLabel PAS penis TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -144,7 +144,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_ureter_TPM_plus_strand
-shortLabel PAS ureter TPM (+) strand
+shortLabel ureter
 longLabel PAS ureter TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -153,7 +153,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_lung_TPM_plus_strand
-shortLabel PAS lung TPM (+) strand
+shortLabel lung
 longLabel PAS lung TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -162,7 +162,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_liver_TPM_plus_strand
-shortLabel PAS liver TPM (+) strand
+shortLabel liver
 longLabel PAS liver TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -171,7 +171,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_skin_TPM_plus_strand
-shortLabel PAS skin TPM (+) strand
+shortLabel skin
 longLabel PAS skin TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -180,7 +180,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_prostate_TPM_plus_strand
-shortLabel PAS prostate TPM (+) strand
+shortLabel prostate
 longLabel PAS prostate TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -189,7 +189,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_uterus_TPM_plus_strand
-shortLabel PAS uterus TPM (+) strand
+shortLabel uterus
 longLabel PAS uterus TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -198,7 +198,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_bloodImmune_TPM_plus_strand
-shortLabel PAS bloodImmune TPM (+) strand
+shortLabel bloodImmune
 longLabel PAS bloodImmune TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -207,7 +207,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
 track PAS_brain_TPM_plus_strand
-shortLabel PAS brain TPM (+) strand
+shortLabel brain
 longLabel PAS brain TPM (+) strand
 parent PAS_tissue_TPM_plus
 color 4,177,216
@@ -215,9 +215,8 @@ type bigWig 0 22000
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/brain.PAS.total.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
 
-
 track PAS_tissue_TPM_minus
-visibility full
+visibility dense
 shortLabel PAS tissue TPM (-) strand
 longLabel PAS tissue TPM (-) strand
 container multiWig
@@ -230,7 +229,7 @@ maxHeighPixels 120:60:8
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_nose_TPM_minus_strand
-shortLabel PAS nose TPM (-) strand
+shortLabel nose
 longLabel PAS nose TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -239,7 +238,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_trachea_TPM_minus_strand
-shortLabel PAS trachea TPM (-) strand
+shortLabel trachea
 longLabel PAS trachea TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -248,7 +247,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_heart_TPM_minus_strand
-shortLabel PAS heart TPM (-) strand
+shortLabel heart
 longLabel PAS heart TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -257,7 +256,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_intestine_TPM_minus_strand
-shortLabel PAS intestine TPM (-) strand
+shortLabel intestine
 longLabel PAS intestine TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -266,7 +265,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_breast_TPM_minus_strand
-shortLabel PAS breast TPM (-) strand
+shortLabel breast
 longLabel PAS breast TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -275,7 +274,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_bone_TPM_minus_strand
-shortLabel PAS bone TPM (-) strand
+shortLabel bone
 longLabel PAS bone TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -284,7 +283,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_pancreas_TPM_minus_strand
-shortLabel PAS pancreas TPM (-) strand
+shortLabel pancreas
 longLabel PAS pancreas TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -293,7 +292,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_eye_TPM_minus_strand
-shortLabel PAS eye TPM (-) strand
+shortLabel eye
 longLabel PAS eye TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -302,7 +301,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_kidney_TPM_minus_strand
-shortLabel PAS kidney TPM (-) strand
+shortLabel kidney
 longLabel PAS kidney TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -311,7 +310,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_penis_TPM_minus_strand
-shortLabel PAS penis TPM (-) strand
+shortLabel penis
 longLabel PAS penis TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -320,7 +319,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_ureter_TPM_minus_strand
-shortLabel PAS ureter TPM (-) strand
+shortLabel ureter
 longLabel PAS ureter TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -329,7 +328,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_lung_TPM_minus_strand
-shortLabel PAS lung TPM (-) strand
+shortLabel lung
 longLabel PAS lung TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -338,7 +337,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_liver_TPM_minus_strand
-shortLabel PAS liver TPM (-) strand
+shortLabel liver
 longLabel PAS liver TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -347,7 +346,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_skin_TPM_minus_strand
-shortLabel PAS skin TPM (-) strand
+shortLabel skin
 longLabel PAS skin TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -356,7 +355,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_prostate_TPM_minus_strand
-shortLabel PAS prostate TPM (-) strand
+shortLabel prostate
 longLabel PAS prostate TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -365,7 +364,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_uterus_TPM_minus_strand
-shortLabel PAS uterus TPM (-) strand
+shortLabel uterus
 longLabel PAS uterus TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -374,7 +373,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_bloodImmune_TPM_minus_strand
-shortLabel PAS bloodImmune TPM (-) strand
+shortLabel bloodImmune
 longLabel PAS bloodImmune TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
@@ -383,7 +382,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/o
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
 
 track PAS_brain_TPM_minus_strand
-shortLabel PAS brain TPM (-) strand
+shortLabel brain
 longLabel PAS brain TPM (-) strand
 parent PAS_tissue_TPM_minus
 color 4,177,216
