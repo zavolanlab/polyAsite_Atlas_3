@@ -1,0 +1,30 @@
+hub UCSCHub
+shortLabel PolyAsite Atlas 3.0
+longLabel PolyAsite Atlas 3.0
+useOneFile on
+email aleksei.mironov@unibas.ch
+descriptionUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/Track_hub_description.html
+
+genome hg38
+defaultPos chr3:108042402-108047903
+organism Homo Sapiens
+
+track PAS_plus_strand
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/PAS.total.plus.bw
+shortLabel PAS (+) strand
+longLabel PolyA sites on (+) strand
+type bigWig
+visibility full
+color 4,177,216
+maxHeightPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/Track_hub_description.html
+
+track PAS_minus_strand
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/PAS.total.minus.bw
+shortLabel PAS (-) strand
+longLabel PolyA sites on (-) strand
+type bigWig
+visibility full
+color 255,68,51
+maxHeightPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/Track_hub_description.html
