@@ -30,6 +30,8 @@ maxHeightPixels 120:60:8
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/Track_hub_description.html
 
 track myMultiWig
+shortLabel myMultiWig
+longLabel myMultiWig
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -38,12 +40,16 @@ viewLimits 0:10
 maxHeighPixels 100:32:8
 
 track bigwig1
+shortLabel bigwig1
+longLabel bigwig1
 parent myMultiWig
 color 4,177,216
 type bigWig 0 1139
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/total/PAS.total.plus.bw
 
 track bigwig2
+shortLabel bigwig2
+longLabel bigwig2
 parent myMultiWig
 color 255,68,51
 type bigWig 0 1139
