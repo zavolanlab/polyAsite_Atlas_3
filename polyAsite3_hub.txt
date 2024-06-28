@@ -10,7 +10,7 @@ defaultPos chr3:108042402-108047903
 organism Homo Sapiens
 
 track PAS_plus_strand
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/PAS.total.plus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/total/PAS.total.plus.bw
 shortLabel PAS (+) strand
 longLabel PolyA sites on (+) strand
 type bigWig
@@ -20,7 +20,7 @@ maxHeightPixels 120:60:8
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/Track_hub_description.html
 
 track PAS_minus_strand
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/PAS.total.minus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/total/PAS.total.minus.bw
 shortLabel PAS (-) strand
 longLabel PolyA sites on (-) strand
 type bigWig
