@@ -9,10 +9,10 @@ genome mm10
 defaultPos chr16:49910345-49915747
 organism Mus Musculus
 
-track PAS_total
+track PAS_total_full
 visibility full
-shortLabel PAS clusters
-longLabel PAS clusters, average TPM across all samples
+shortLabel PAS clusters - full
+longLabel PAS clusters, filtering stringency: full, average TPM across all samples
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -22,22 +22,83 @@ autoScale on
 maxHeighPixels 120:60:8
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
 
-track PAS_plus_strand
-shortLabel PAS (+) strand
-longLabel PolyA sites on (+) strand
-parent PAS_total
+track PAS_total_plus_strand_full
+shortLabel PAS-full (+) strand
+longLabel PAS-full (+) strand
+parent PAS_total_full
 color 4,177,216
 type bigWig 0 22000
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.total.plus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.full.total.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
 
-track PAS_minus_strand
-shortLabel PAS (-) strand
-longLabel PolyA sites on (-) strand
-parent PAS_total
+track PAS_total_minus_strand_full
+shortLabel PAS-full (-) strand
+longLabel PAS-full (-) strand
+parent PAS_total_full
 color 255,68,51
 type bigWig 0 22000
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.total.minus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.full.total.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
 
+track PAS_total_optimal
+visibility full
+shortLabel PAS clusters - optimal
+longLabel PAS clusters, filtering stringency: optimal, average TPM across all samples
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig 0 22000
+viewLimits 0:22000
+autoScale on
+maxHeighPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
+
+track PAS_total_plus_strand_optimal
+shortLabel PAS-optimal (+) strand
+longLabel PAS-optimal (+) strand
+parent PAS_total_optimal
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.optimal.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
+
+track PAS_total_minus_strand_optimal
+shortLabel PAS-optimal (-) strand
+longLabel PAS-optimal (-) strand
+parent PAS_total_optimal
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.optimal.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
+
+track PAS_total_stringent
+visibility full
+shortLabel PAS clusters - stringent
+longLabel PAS clusters, filtering stringency: stringent, average TPM across all samples
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig 0 22000
+viewLimits 0:22000
+autoScale on
+maxHeighPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
+
+track PAS_total_plus_strand_stringent
+shortLabel PAS-stringent (+) strand
+longLabel PAS-stringent (+) strand
+parent PAS_total_stringent
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.stringent.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
+
+track PAS_total_minus_strand_stringent
+shortLabel PAS-stringent (-) strand
+longLabel PAS-stringent (-) strand
+parent PAS_total_stringent
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.stringent.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
 
