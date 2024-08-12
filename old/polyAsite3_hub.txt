@@ -1,0 +1,394 @@
+hub UCSCHub
+shortLabel PolyAsite Atlas 3.0
+longLabel PolyAsite Atlas 3.0
+useOneFile on
+email aleksei.mironov@unibas.ch
+descriptionUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/Track_hub_description.html
+
+genome hg38
+defaultPos chr3:108042402-108047903
+organism Homo Sapiens
+
+track PAS_total
+visibility full
+shortLabel PAS clusters
+longLabel PAS clusters, average TPM across all samples
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig 0 22000
+viewLimits 0:22000
+autoScale on
+maxHeighPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_clusters.html
+
+track PAS_plus_strand
+shortLabel PAS (+) strand
+longLabel PolyA sites on (+) strand
+parent PAS_total
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/total/PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_clusters.html
+
+track PAS_minus_strand
+shortLabel PAS (-) strand
+longLabel PolyA sites on (-) strand
+parent PAS_total
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/total/PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_clusters.html
+
+track PAS_tissue_TPM_plus
+visibility dense
+shortLabel PAS tissue TPM (+) strand
+longLabel PAS tissue TPM (+) strand
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 22000
+viewLimits 0:22000
+autoScale on
+maxHeighPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_nose_TPM_plus_strand
+shortLabel nose
+longLabel PAS nose TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/nose.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_trachea_TPM_plus_strand
+shortLabel trachea
+longLabel PAS trachea TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/trachea.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_heart_TPM_plus_strand
+shortLabel heart
+longLabel PAS heart TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/heart.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_intestine_TPM_plus_strand
+shortLabel intestine
+longLabel PAS intestine TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/intestine.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_breast_TPM_plus_strand
+shortLabel breast
+longLabel PAS breast TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/breast.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_bone_TPM_plus_strand
+shortLabel bone
+longLabel PAS bone TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/bone.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_pancreas_TPM_plus_strand
+shortLabel pancreas
+longLabel PAS pancreas TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/pancreas.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_eye_TPM_plus_strand
+shortLabel eye
+longLabel PAS eye TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/eye.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_kidney_TPM_plus_strand
+shortLabel kidney
+longLabel PAS kidney TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/kidney.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_penis_TPM_plus_strand
+shortLabel penis
+longLabel PAS penis TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/penis.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_ureter_TPM_plus_strand
+shortLabel ureter
+longLabel PAS ureter TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/ureter.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_lung_TPM_plus_strand
+shortLabel lung
+longLabel PAS lung TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/lung.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_liver_TPM_plus_strand
+shortLabel liver
+longLabel PAS liver TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/liver.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_skin_TPM_plus_strand
+shortLabel skin
+longLabel PAS skin TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/skin.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_prostate_TPM_plus_strand
+shortLabel prostate
+longLabel PAS prostate TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/prostate.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_uterus_TPM_plus_strand
+shortLabel uterus
+longLabel PAS uterus TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/uterus.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_bloodImmune_TPM_plus_strand
+shortLabel bloodImmune
+longLabel PAS bloodImmune TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/bloodImmune.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_brain_TPM_plus_strand
+shortLabel brain
+longLabel PAS brain TPM (+) strand
+parent PAS_tissue_TPM_plus
+color 4,177,216
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/brain.PAS.total.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_plus.html
+
+track PAS_tissue_TPM_minus
+visibility dense
+shortLabel PAS tissue TPM (-) strand
+longLabel PAS tissue TPM (-) strand
+container multiWig
+aggregate none
+showSubtrackColorOnUi on
+type bigWig 0 22000
+viewLimits 0:22000
+autoScale on
+maxHeighPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_nose_TPM_minus_strand
+shortLabel nose
+longLabel PAS nose TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/nose.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_trachea_TPM_minus_strand
+shortLabel trachea
+longLabel PAS trachea TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/trachea.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_heart_TPM_minus_strand
+shortLabel heart
+longLabel PAS heart TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/heart.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_intestine_TPM_minus_strand
+shortLabel intestine
+longLabel PAS intestine TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/intestine.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_breast_TPM_minus_strand
+shortLabel breast
+longLabel PAS breast TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/breast.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_bone_TPM_minus_strand
+shortLabel bone
+longLabel PAS bone TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/bone.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_pancreas_TPM_minus_strand
+shortLabel pancreas
+longLabel PAS pancreas TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/pancreas.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_eye_TPM_minus_strand
+shortLabel eye
+longLabel PAS eye TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/eye.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_kidney_TPM_minus_strand
+shortLabel kidney
+longLabel PAS kidney TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/kidney.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_penis_TPM_minus_strand
+shortLabel penis
+longLabel PAS penis TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/penis.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_ureter_TPM_minus_strand
+shortLabel ureter
+longLabel PAS ureter TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/ureter.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_lung_TPM_minus_strand
+shortLabel lung
+longLabel PAS lung TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/lung.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_liver_TPM_minus_strand
+shortLabel liver
+longLabel PAS liver TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/liver.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_skin_TPM_minus_strand
+shortLabel skin
+longLabel PAS skin TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/skin.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_prostate_TPM_minus_strand
+shortLabel prostate
+longLabel PAS prostate TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/prostate.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_uterus_TPM_minus_strand
+shortLabel uterus
+longLabel PAS uterus TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/uterus.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_bloodImmune_TPM_minus_strand
+shortLabel bloodImmune
+longLabel PAS bloodImmune TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/bloodImmune.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+track PAS_brain_TPM_minus_strand
+shortLabel brain
+longLabel PAS brain TPM (-) strand
+parent PAS_tissue_TPM_minus
+color 255,68,51
+type bigWig 0 22000
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/over_tissues/brain.PAS.total.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/main/track_descriptions/PAS_tissue_TPM_minus.html
+
+
+
