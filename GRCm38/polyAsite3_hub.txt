@@ -24,7 +24,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 
 track PAS_total_plus_strand_full
 shortLabel PAS-full (+) strand
-longLabel PAS clusters, filtering stringency: full, on a (+) strand
+longLabel [PAS clusters, filtering stringency: full, on a (+) strand]
 parent PAS_total_full
 color 4,177,216
 type bigWig 0 22000
@@ -33,7 +33,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 
 track PAS_total_minus_strand_full
 shortLabel PAS-full (-) strand
-longLabel PAS clusters, filtering stringency: full, on a (-) strand
+longLabel [PAS clusters, filtering stringency: full, on a (-) strand]
 parent PAS_total_full
 color 255,68,51
 type bigWig 0 22000
@@ -55,7 +55,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 
 track PAS_total_plus_strand_optimal
 shortLabel PAS-optimal (+) strand
-longLabel PAS clusters, filtering stringency: optimal, on a (+) strand
+longLabel [PAS clusters, filtering stringency: optimal, on a (+) strand]
 parent PAS_total_optimal
 color 4,177,216
 type bigWig 0 22000
@@ -64,7 +64,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 
 track PAS_total_minus_strand_optimal
 shortLabel PAS-optimal (-) strand
-longLabel PAS clusters, filtering stringency: optimal, on a (-) strand
+longLabel [PAS clusters, filtering stringency: optimal, on a (-) strand]
 parent PAS_total_optimal
 color 255,68,51
 type bigWig 0 22000
@@ -86,7 +86,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 
 track PAS_total_plus_strand_stringent
 shortLabel PAS-stringent (+) strand
-longLabel PAS clusters, filtering stringency: stringent, on a (+) strand
+longLabel [PAS clusters, filtering stringency: stringent, on a (+) strand]
 parent PAS_total_stringent
 color 4,177,216
 type bigWig 0 22000
@@ -95,7 +95,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 
 track PAS_total_minus_strand_stringent
 shortLabel PAS-stringent (-) strand
-longLabel PAS clusters, filtering stringency: stringent, on a (-) strand
+longLabel [PAS clusters, filtering stringency: stringent, on a (-) strand]
 parent PAS_total_stringent
 color 255,68,51
 type bigWig 0 22000
