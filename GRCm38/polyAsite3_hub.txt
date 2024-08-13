@@ -9,14 +9,14 @@ genome mm10
 defaultPos chr16:49910345-49915747
 organism Mus Musculus
 
-track test
-shortLabel test
-longLabel test
-color 4,177,216
-type bigWig 0 22000
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.full.total.plus.bw
+track PAS_catalogue
+visibility full
+shortLabel PAS clusters - catalogue
+longLabel PAS clusters, catalogue
+type bigWig bigBed 6 .
+colorByStrand 4,177,216 255,68,51
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.all.total.bb
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
-url https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
 
 track PAS_total_full
 visibility hide
