@@ -16,7 +16,7 @@ color 4,177,216
 type bigWig 0 22000
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.full.total.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
-iframeUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_tissue_TPM_minus.html
+url https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
 
 track PAS_total_full
 visibility hide
