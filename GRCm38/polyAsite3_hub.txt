@@ -15,6 +15,9 @@ shortLabel PAS clusters - catalogue
 longLabel PAS clusters, catalogue
 type bigBed 6 .
 colorByStrand 4,177,216 255,68,51
+spectrum on
+scoreMax 3
+scoreMin 1
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/total/PAS.all.total.bb
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/track_descriptions/PAS_clusters.html
 
