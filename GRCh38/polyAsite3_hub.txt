@@ -15,8 +15,8 @@ shortLabel PAS catalogue
 longLabel PAS - full catalogue
 type bigBed 6 .
 spectrum on
-scoreMax 3
-scoreMin 1
+scoreMax 100
+scoreMin 20
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.all.total.bb
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_clusters.html
 
