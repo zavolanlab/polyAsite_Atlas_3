@@ -17,7 +17,7 @@ type bigBed 6 .
 spectrum on
 scoreMax 3
 scoreMin 1
-https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.all.total.bb
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.all.total.bb
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_clusters.html
 
 track PAS_average_RPM
