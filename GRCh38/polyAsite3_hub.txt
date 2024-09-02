@@ -22,23 +22,23 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/t
 allButtonPair on
 
 
-track PAS_catalogue_20
+track PAS_catalogue_20_25
 parent PAS_catalogue on
-shortLabel 20% motif presence
+shortLabel 20%-25% motif presence
 longLabel PAS catalogue
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20.total.bb
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-25.total.bb
 
-track PAS_catalogue_51
+track PAS_catalogue_25_35
 parent PAS_catalogue on
-shortLabel 51% motif presence
+shortLabel 25-35% motif presence
 longLabel  
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.51.total.bb
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.25-35.total.bb
 
-track PAS_catalogue_98
+track PAS_catalogue_35_100
 parent PAS_catalogue on
-shortLabel 98% motif presence
+shortLabel 35-100% motif presence
 longLabel  
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.98.total.bb
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.35-100.total.bb
 
 
 track PAS_average_RPM
