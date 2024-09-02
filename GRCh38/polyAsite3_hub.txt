@@ -25,7 +25,7 @@ allButtonPair on
 track PAS_catalogue_20
 parent PAS_catalogue on
 shortLabel 20% motif presence
-longLabel  
+longLabel PAS catalogue
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20.total.bb
 
 track PAS_catalogue_51
