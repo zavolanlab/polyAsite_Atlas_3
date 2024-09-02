@@ -25,19 +25,19 @@ allButtonPair on
 track PAS_catalogue_20
 parent PAS_catalogue on
 shortLabel 20% motif presence
-longLabel -
+longLabel  
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20.total.bb
 
 track PAS_catalogue_51
 parent PAS_catalogue on
 shortLabel 51% motif presence
-longLabel -
+longLabel  
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.51.total.bb
 
 track PAS_catalogue_98
 parent PAS_catalogue on
 shortLabel 98% motif presence
-longLabel -
+longLabel  
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.98.total.bb
 
 
