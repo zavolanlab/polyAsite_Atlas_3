@@ -10,15 +10,30 @@ defaultPos chr3:108042402-108047903
 organism Homo Sapiens
 
 track PAS_catalogue
-visibility dense
+compositeTrack on
+visibility squish
 shortLabel PAS catalogue
 longLabel PAS - full catalogue
 type bigBed 6 .
 spectrum on
 scoreMax 100
 scoreMin 20
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.all.total.bb
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_clusters.html
+allButtonPair on
+
+
+track PAS_catalogue_20
+parent PAS_catalogue on
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20.total.bb
+
+track PAS_catalogue_51
+parent PAS_catalogue on
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.51.total.bb
+
+track PAS_catalogue_98
+parent PAS_catalogue on
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.98.total.bb
+
 
 track PAS_average_RPM
 visibility full
