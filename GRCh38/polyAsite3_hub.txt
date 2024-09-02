@@ -22,23 +22,41 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/t
 allButtonPair on
 
 
-track PAS_catalogue_20_25
+track PAS_catalogue_20_21_+
 parent PAS_catalogue on
-shortLabel 20%-25% motif presence
+shortLabel 20%-21% motif presence, + strand
 longLabel PAS catalogue
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-25.total.bb
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.+.total.bb
 
-track PAS_catalogue_25_35
+track PAS_catalogue_20_21_-
 parent PAS_catalogue on
-shortLabel 25-35% motif presence
-longLabel  
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.25-35.total.bb
+shortLabel 20%-21% motif presence, - strand
+longLabel PAS catalogue
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.-.total.bb
 
-track PAS_catalogue_35_100
+track PAS_catalogue_22_29_+
 parent PAS_catalogue on
-shortLabel 35-100% motif presence
-longLabel  
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.35-100.total.bb
+shortLabel 22%-29% motif presence, + strand
+longLabel PAS catalogue
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.+.total.bb
+
+track PAS_catalogue_22_29_-
+parent PAS_catalogue on
+shortLabel 22%-29% motif presence, - strand
+longLabel PAS catalogue
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.-.total.bb
+
+track PAS_catalogue_30_100_+
+parent PAS_catalogue on
+shortLabel 30%-100% motif presence, + strand
+longLabel PAS catalogue
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.+.total.bb
+
+track PAS_catalogue_30_100_-
+parent PAS_catalogue on
+shortLabel 30%-100% motif presence, - strand
+longLabel PAS catalogue
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.-.total.bb
 
 
 track PAS_average_RPM
