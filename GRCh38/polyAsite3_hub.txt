@@ -11,54 +11,52 @@ organism Homo Sapiens
 
 track PAS_catalogue
 compositeTrack on
+allButtonPair on
 visibility squish
 shortLabel PAS catalogue
 longLabel PAS - full catalogue
 type bigBed 6 .
 spectrum on
-scoreMax 100
-scoreMin 20
-html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_clusters.html
-allButtonPair on
+scoreMax 20
+scoreMin 100
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_catalogue.html
 
-
-track PAS_catalogue_20_21_+
+track PAS_catalogue_20-21_+ 
 parent PAS_catalogue on
-shortLabel 20%-21% motif presence, + strand
+shortLabel 20-21% motif presence, + strand
 longLabel PAS catalogue
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.+.total.bb
-
-track PAS_catalogue_20_21_-
+        
+track PAS_catalogue_20-21_- 
 parent PAS_catalogue on
-shortLabel 20%-21% motif presence, - strand
-longLabel PAS catalogue
+shortLabel 20-21% motif presence, - strand
+longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.-.total.bb
-
-track PAS_catalogue_22_29_+
+        
+track PAS_catalogue_22-29_+ 
 parent PAS_catalogue on
-shortLabel 22%-29% motif presence, + strand
-longLabel PAS catalogue
+shortLabel 22-29% motif presence, + strand
+longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.+.total.bb
-
-track PAS_catalogue_22_29_-
+        
+track PAS_catalogue_22-29_- 
 parent PAS_catalogue on
-shortLabel 22%-29% motif presence, - strand
-longLabel PAS catalogue
+shortLabel 22-29% motif presence, - strand
+longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.-.total.bb
-
-track PAS_catalogue_30_100_+
+        
+track PAS_catalogue_30-100_+ 
 parent PAS_catalogue on
-shortLabel 30%-100% motif presence, + strand
-longLabel PAS catalogue
+shortLabel 30-100% motif presence, + strand
+longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.+.total.bb
-
-track PAS_catalogue_30_100_-
+        
+track PAS_catalogue_30-100_- 
 parent PAS_catalogue on
-shortLabel 30%-100% motif presence, - strand
-longLabel PAS catalogue
+shortLabel 30-100% motif presence, - strand
+longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.-.total.bb
-
-
+        
 track PAS_average_RPM
 visibility full
 shortLabel PAS average RPM
@@ -66,29 +64,62 @@ longLabel PAS, average RPM across tissues
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-type bigWig 0 22000
-viewLimits 0:22000
+type bigWig 0 17512
+viewLimits 0:17512
 autoScale on
 maxHeighPixels 120:60:8
-html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_clusters.html
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
 
-track PAS_total_plus_strand
-shortLabel PAS average RPM, (+) strand
-longLabel PAS average RPM, for PAS on a (+) strand
+track PAS_20-21_plus_strand
+shortLabel RPM, 20-21%, +
+longLabel PAS average RPM, for PAS with 20-21% motif presence, on a (+) strand
 parent PAS_average_RPM
 color 4,177,216
-type bigWig 0 22000
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.total.plus.bw
-html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_clusters.html
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
 
-track PAS_total_minus_strand
-shortLabel PAS average RPM, (-) strand
-longLabel PAS average RPM, for PAS on a (-) strand
+track PAS_20-21_minus_strand
+shortLabel RPM, 20-21%, -
+longLabel PAS average RPM, for PAS with 20-21% motif presence, on a (-) strand
 parent PAS_average_RPM
 color 255,68,51
-type bigWig 0 22000
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.total.minus.bw
-html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_clusters.html
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
 
+track PAS_22-29_plus_strand
+shortLabel RPM, 22-29%, +
+longLabel PAS average RPM, for PAS with 22-29% motif presence, on a (+) strand
+parent PAS_average_RPM
+color 4,177,216
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
 
+track PAS_22-29_minus_strand
+shortLabel RPM, 22-29%, -
+longLabel PAS average RPM, for PAS with 22-29% motif presence, on a (-) strand
+parent PAS_average_RPM
+color 255,68,51
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
 
+track PAS_30-100_plus_strand
+shortLabel RPM, 30-100%, +
+longLabel PAS average RPM, for PAS with 30-100% motif presence, on a (+) strand
+parent PAS_average_RPM
+color 4,177,216
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
+
+track PAS_30-100_minus_strand
+shortLabel RPM, 30-100%, -
+longLabel PAS average RPM, for PAS with 30-100% motif presence, on a (-) strand
+parent PAS_average_RPM
+color 255,68,51
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
