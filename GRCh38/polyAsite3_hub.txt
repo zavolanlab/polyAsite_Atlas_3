@@ -9,12 +9,12 @@ genome hg38
 defaultPos chr3:108042402-108047903
 organism Homo Sapiens
 
-track 1_PAS_catalogue
+track PAS_catalogue
 compositeTrack on
 allButtonPair on
 visibility squish
-shortLabel PAS catalogue
-longLabel PAS - full catalogue
+shortLabel 1. PAS catalogue
+longLabel 1. PAS - full catalogue
 type bigBed 6 .
 spectrum on
 scoreMax 100
@@ -28,39 +28,39 @@ longLabel PAS catalogue
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.+.total.bb
         
 track PAS_catalogue_20-21_- 
-parent 1_PAS_catalogue on
+parent PAS_catalogue on
 shortLabel 20-21% motif presence, - strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.-.total.bb
         
 track PAS_catalogue_22-29_+ 
-parent 1_PAS_catalogue on
+parent PAS_catalogue on
 shortLabel 22-29% motif presence, + strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.+.total.bb
         
 track PAS_catalogue_22-29_- 
-parent 1_PAS_catalogue on
+parent PAS_catalogue on
 shortLabel 22-29% motif presence, - strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.-.total.bb
         
 track PAS_catalogue_30-100_+ 
-parent 1_PAS_catalogue on
+parent PAS_catalogue on
 shortLabel 30-100% motif presence, + strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.+.total.bb
         
 track PAS_catalogue_30-100_- 
-parent 1_PAS_catalogue on
+parent PAS_catalogue on
 shortLabel 30-100% motif presence, - strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.-.total.bb
         
 track PAS_average_RPM
 visibility full
-shortLabel PAS average RPM
-longLabel PAS, average RPM across tissues
+shortLabel 2. PAS average RPM
+longLabel 2. PAS, average RPM across tissues
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -126,8 +126,8 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/t
 
 track PAS_tissue_RPM_plus
 visibility dense
-shortLabel PAS tissue RPM (+) strand
-longLabel PAS tissue RPM (+) strand
+shortLabel 3. PAS tissue RPM (+) strand
+longLabel 3. PAS tissue RPM (+) strand
 container multiWig
 aggregate none
 showSubtrackColorOnUi on
@@ -301,8 +301,8 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/t
 
 track PAS_tissue_RPM_minus
 visibility dense
-shortLabel PAS tissue RPM (-) strand
-longLabel PAS tissue RPM (-) strand
+shortLabel 4. PAS tissue RPM (-) strand
+longLabel 4. PAS tissue RPM (-) strand
 container multiWig
 aggregate none
 showSubtrackColorOnUi on
