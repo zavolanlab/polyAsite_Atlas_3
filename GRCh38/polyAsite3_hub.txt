@@ -9,7 +9,7 @@ genome hg38
 defaultPos chr3:108042402-108047903
 organism Homo Sapiens
 
-track PAS_catalogue
+track 1_PAS_catalogue
 compositeTrack on
 allButtonPair on
 visibility squish
@@ -22,37 +22,37 @@ scoreMin 20
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_catalogue.html
 
 track PAS_catalogue_20-21_+ 
-parent PAS_catalogue on
+parent 1_PAS_catalogue on
 shortLabel 20-21% motif presence, + strand
 longLabel PAS catalogue
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.+.total.bb
         
 track PAS_catalogue_20-21_- 
-parent PAS_catalogue on
+parent 1_PAS_catalogue on
 shortLabel 20-21% motif presence, - strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.-.total.bb
         
 track PAS_catalogue_22-29_+ 
-parent PAS_catalogue on
+parent 1_PAS_catalogue on
 shortLabel 22-29% motif presence, + strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.+.total.bb
         
 track PAS_catalogue_22-29_- 
-parent PAS_catalogue on
+parent 1_PAS_catalogue on
 shortLabel 22-29% motif presence, - strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.22-29.-.total.bb
         
 track PAS_catalogue_30-100_+ 
-parent PAS_catalogue on
+parent 1_PAS_catalogue on
 shortLabel 30-100% motif presence, + strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.+.total.bb
         
 track PAS_catalogue_30-100_- 
-parent PAS_catalogue on
+parent 1_PAS_catalogue on
 shortLabel 30-100% motif presence, - strand
 longLabel 
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.-.total.bb
