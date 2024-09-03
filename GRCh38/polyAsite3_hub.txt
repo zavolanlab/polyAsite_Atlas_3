@@ -473,8 +473,3 @@ color 255,68,51
 type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/over_tissues/prostate.PAS.total.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
-
-
-
-
-
