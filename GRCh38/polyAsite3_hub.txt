@@ -22,7 +22,7 @@ scoreMin 20
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_catalogue.html
 
 track PAS_catalogue_20-21_+ 
-parent 1_PAS_catalogue on
+parent PAS_catalogue on
 shortLabel 20-21% motif presence, + strand
 longLabel PAS catalogue
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.+.total.bb
