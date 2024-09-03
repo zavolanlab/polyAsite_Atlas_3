@@ -123,3 +123,45 @@ color 255,68,51
 type bigWig 0 17512
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.30-100.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
+
+
+track PAS_tissue_RPM
+compositeTrack on
+allButtonPair on
+visibility full
+shortLabel PAS tissue RPM
+longLabel PAS tissue RPM
+type multiWig
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_catalogue.html
+
+track PAS_RPM_brain
+shortLabel RPM brain
+longLabel RPM brain
+parent PAS_tissue_RPM
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig 0 17512
+viewLimits 0:17512
+autoScale on
+maxHeighPixels 120:60:8
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
+
+track PAS_RPM_brain_+
+shortLabel PAS_RPM_brain_+
+longLabel PAS_RPM_brain_+
+parent PAS_RPM_brain
+color 4,177,216
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.brain.20-21.plus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
+
+track PAS_RPM_brain_-
+shortLabel PAS_RPM_brain_-
+longLabel PAS_RPM_brain_-
+parent PAS_RPM_brain
+color 4,177,216
+type bigWig 0 17512
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.brain.20-21.minus.bw
+html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
+
