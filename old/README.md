@@ -1,1 +1,0 @@
-# polyAsite Atlas v3
