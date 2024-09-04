@@ -13,7 +13,7 @@ track PAS_catalogue
 compositeTrack on
 allButtonPair on
 visibility squish
-shortLabel 1. PAS catalogue
+shortLabel PAS catalogue
 longLabel 1. PAS - full catalogue
 type bigBed 6 .
 spectrum on
@@ -24,7 +24,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/t
 track PAS_catalogue_20-21_+ 
 parent PAS_catalogue on
 shortLabel 20-21% motif presence, + strand
-longLabel PAS catalogue
+longLabel 1. PAS - full catalogue
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/total/PAS.20-21.+.total.bb
         
 track PAS_catalogue_20-21_- 
@@ -59,7 +59,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GR
         
 track PAS_average_RPM
 visibility full
-shortLabel 2. PAS average RPM
+shortLabel PAS mean RPM
 longLabel 2. PAS, average RPM across tissues
 container multiWig
 aggregate transparentOverlay
@@ -67,7 +67,7 @@ showSubtrackColorOnUi on
 type bigWig 0 17512
 viewLimits 0:17512
 autoScale on
-maxHeighPixels 120:60:8
+maxHeightPixels 120:60:8
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_average_RPM.html
 
 track PAS_20-21_plus_strand
