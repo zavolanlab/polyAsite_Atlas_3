@@ -36,7 +36,7 @@ bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/WB
 track PAS_average_RPM
 visibility full
 shortLabel PAS mean RPM
-longLabel 2. PAS, average RPM across tissues
+longLabel 2. PAS, average RPM
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
