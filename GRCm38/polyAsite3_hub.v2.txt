@@ -67,7 +67,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 track PAS_tissue_RPM_plus
 visibility dense
 shortLabel PAS tissue RPM (+) strand
-longLabel 3PAS tissue RPM (+) strand
+longLabel 3. PAS tissue RPM (+) strand
 container multiWig
 aggregate none
 showSubtrackColorOnUi on
@@ -242,7 +242,7 @@ html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCm38/t
 track PAS_tissue_RPM_minus
 visibility dense
 shortLabel PAS tissue RPM (-) strand
-longLabel 4PAS tissue RPM (-) strand
+longLabel 4. PAS tissue RPM (-) strand
 container multiWig
 aggregate none
 showSubtrackColorOnUi on
