@@ -164,22 +164,22 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.eye.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
-track PAS_bone_RPM_plus_strand
-shortLabel bone
-longLabel PAS bone RPM (+) strand
+track PAS_intervertebral disc_RPM_plus_strand
+shortLabel intervertebral disc
+longLabel PAS intervertebral disc RPM (+) strand
 parent PAS_tissue_RPM_plus
 color 4,177,216
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.bone.plus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.intervertebral disc.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
-track PAS_nose_RPM_plus_strand
-shortLabel nose
-longLabel PAS nose RPM (+) strand
+track PAS_nasal mucosa_RPM_plus_strand
+shortLabel nasal mucosa
+longLabel PAS nasal mucosa RPM (+) strand
 parent PAS_tissue_RPM_plus
 color 4,177,216
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.nose.plus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.nasal mucosa.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
 track PAS_skin_RPM_plus_strand
@@ -191,13 +191,13 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.skin.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
-track PAS_penis_RPM_plus_strand
-shortLabel penis
-longLabel PAS penis RPM (+) strand
+track PAS_corpus cavernosum_RPM_plus_strand
+shortLabel corpus cavernosum
+longLabel PAS corpus cavernosum RPM (+) strand
 parent PAS_tissue_RPM_plus
 color 4,177,216
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.penis.plus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.corpus cavernosum.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
 track PAS_heart_RPM_plus_strand
@@ -227,13 +227,13 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.lung.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
-track PAS_trachea_RPM_plus_strand
-shortLabel trachea
-longLabel PAS trachea RPM (+) strand
+track PAS_tracheal epithelium_RPM_plus_strand
+shortLabel tracheal epithelium
+longLabel PAS tracheal epithelium RPM (+) strand
 parent PAS_tissue_RPM_plus
 color 4,177,216
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.trachea.plus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.tracheal epithelium.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
 track PAS_pancreas_RPM_plus_strand
@@ -254,13 +254,13 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.intestine.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
-track PAS_kidney_RPM_plus_strand
-shortLabel kidney
-longLabel PAS kidney RPM (+) strand
+track PAS_kidney parenchyma_RPM_plus_strand
+shortLabel kidney parenchyma
+longLabel PAS kidney parenchyma RPM (+) strand
 parent PAS_tissue_RPM_plus
 color 4,177,216
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.kidney.plus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.kidney parenchyma.plus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_plus.html
 
 track PAS_liver_RPM_plus_strand
@@ -339,22 +339,22 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.eye.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
-track PAS_bone_RPM_minus_strand
-shortLabel bone
-longLabel PAS bone RPM (-) strand
+track PAS_intervertebral disc_RPM_minus_strand
+shortLabel intervertebral disc
+longLabel PAS intervertebral disc RPM (-) strand
 parent PAS_tissue_RPM_minus
 color 255,68,51
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.bone.minus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.intervertebral disc.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
-track PAS_nose_RPM_minus_strand
-shortLabel nose
-longLabel PAS nose RPM (-) strand
+track PAS_nasal mucosa_RPM_minus_strand
+shortLabel nasal mucosa
+longLabel PAS nasal mucosa RPM (-) strand
 parent PAS_tissue_RPM_minus
 color 255,68,51
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.nose.minus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.nasal mucosa.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
 track PAS_skin_RPM_minus_strand
@@ -366,13 +366,13 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.skin.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
-track PAS_penis_RPM_minus_strand
-shortLabel penis
-longLabel PAS penis RPM (-) strand
+track PAS_corpus cavernosum_RPM_minus_strand
+shortLabel corpus cavernosum
+longLabel PAS corpus cavernosum RPM (-) strand
 parent PAS_tissue_RPM_minus
 color 255,68,51
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.penis.minus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.corpus cavernosum.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
 track PAS_heart_RPM_minus_strand
@@ -402,13 +402,13 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.lung.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
-track PAS_trachea_RPM_minus_strand
-shortLabel trachea
-longLabel PAS trachea RPM (-) strand
+track PAS_tracheal epithelium_RPM_minus_strand
+shortLabel tracheal epithelium
+longLabel PAS tracheal epithelium RPM (-) strand
 parent PAS_tissue_RPM_minus
 color 255,68,51
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.trachea.minus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.tracheal epithelium.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
 track PAS_pancreas_RPM_minus_strand
@@ -429,13 +429,13 @@ type bigWig 0 315228
 bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.intestine.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
-track PAS_kidney_RPM_minus_strand
-shortLabel kidney
-longLabel PAS kidney RPM (-) strand
+track PAS_kidney parenchyma_RPM_minus_strand
+shortLabel kidney parenchyma
+longLabel PAS kidney parenchyma RPM (-) strand
 parent PAS_tissue_RPM_minus
 color 255,68,51
 type bigWig 0 315228
-bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.kidney.minus.bw
+bigDataUrl https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/over_tissues/PAS.kidney parenchyma.minus.bw
 html https://raw.githubusercontent.com/zavolanlab/polyAsite_Atlas_3/dev/GRCh38/track_descriptions/PAS_tissue_RPM_minus.html
 
 track PAS_liver_RPM_minus_strand
